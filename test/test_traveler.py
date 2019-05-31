@@ -1,6 +1,7 @@
 import pytest
 
-from traveler import City, Traveler, Stronghold
+from traveler import Traveler
+from travel_points import City, Stronghold
 
 
 class TestTraveler:
