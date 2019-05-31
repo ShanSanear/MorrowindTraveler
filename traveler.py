@@ -1,14 +1,6 @@
 from collections import defaultdict
-from enum import Enum, auto
 
 from graphs import SILT_STRIDER_GRAPH, PROPYLON_GRAPH, BOAT_GRAPH, GUILD_GUIDE_GRAPH
-
-
-class TravelType(Enum):
-    GUILD_GUIDE = auto()
-    SILT_STRIDER = auto()
-    BOAT = auto()
-    PROPYLON = auto()
 
 
 class Traveler:
